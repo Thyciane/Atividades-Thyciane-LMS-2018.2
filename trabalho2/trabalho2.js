@@ -1,5 +1,5 @@
-let usuario = "LÌvia";
-    let dados = JSON.parse('{"conversas":[{"usuario": "josÈ","mensagens": [{"usuario": "josÈ","texto": "Oi"},{"usuario": "LÌvia","texto": "i Ai?"},{"usuario": "josÈ","texto": "de boas."}]},{"usuario": "LÌvia","mensagens": [{"usuario": "LÌvia","texto": "Novidades?"},{"usuario": "Carol","texto": "N„o e vc?"},{"usuario": "LÌvia","texto": "tbm n„o"}]},{"usuario": "Carlos","mensagens": [{"usuario": "LÌvia ","texto": "faznd?"},{"usuario": "Carlos","texto": "esperando o bus e vc?"},{"usuario": "LÌvia","texto": "Saindo de casa agr."}]}]}');
+let usuario = "L√≠via";
+    let dados = JSON.parse('{"conversas":[{"usuario": "jos√©","mensagens": [{"usuario": "jos√©","texto": "Oi"},{"usuario": "L√≠via","texto": "i Ai?"},{"usuario": "jos√©","texto": "de boas."}]},{"usuario": "L√≠via","mensagens": [{"usuario": "L√≠via","texto": "Novidades?"},{"usuario": "Carol","texto": "N√£o e vc?"},{"usuario": "L√≠via","texto": "tbm n√£o"}]},{"usuario": "Carlos","mensagens": [{"usuario": "L√≠via ","texto": "faznd?"},{"usuario": "Carlos","texto": "esperando o bus e vc?"},{"usuario": "L√≠via","texto": "Saindo de casa agr."}]}]}');
 
     let listaContatosElem = document.querySelector("#lista-contatos");
     let listaMensagensElem = document.querySelector("#lista-mensagens");
